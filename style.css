@@ -1,41 +1,70 @@
 body {
-    background-color: #3a6933;
+    background-color: #181818;
+    color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     margin: 0;
-  }
-  
-  .container {
-    background-color: #d7f8ca;
+}
+
+.container {
+    background-color: #222222;
     padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
     text-align: center;
-    width: 100%;
-  }
-  
-  h1 {
-    font-size: 2.5rem;
-    color: #333;
-  }
-  
-  p {
-    font-size: 1.2rem;
+    width: 90%;
+    max-width: 550px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #f1f1f1;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 1rem;
+    color: #bdbdbd;
     margin-bottom: 20px;
-  }
-  
-  img {
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+.btn {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.profile-img {
     width: 150px;
     height: 150px;
-  }
-  
-  .btn {
+    object-fit: cover;
+    border: 4px solid #e0e0e0;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.btn-custom {
     width: 100%;
+    font-size: 1.1rem;
+    padding: 12px;
     margin-bottom: 10px;
-    font-size: 1.2rem;
-  }
-  
-  .btn:hover {
-    opacity: 0.8;
-  }
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(135deg, #444, #555);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+}
+.btn-custom:hover {
+    background: linear-gradient(135deg, #666, #777);
+    transform: scale(1.05);
+}
